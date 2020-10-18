@@ -1,20 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Baloon Accounting</title>
-  <script src="script.js"></script>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavyansh's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
-  <input id="input1" placeholder="Add Blown Baloons by typing anything here." style="width: 100%;" onkeyup="moreBlown()"><br><br>
-  <input id="input2" placeholder="Write the value of Total Un-blown Baloons." style="width: 100%;" onkeyup="left()">
-  <input id="input3" placeholder="Write the value of Decreased Baloons." style="width: 100%;"><br>
-  <button onclick="decrease()" id="OK">OK</button>
-  <br><br><br><br><br><br>
-  Blown Baloons left in total: <p id="blowntotal"></p><br>
-  Baloons blown in this session: <p id="thissession"></p><br>
-  UNBLOWN Baloons Left: <p id="unblown"></p>
+    <ul class="menu">
+        <li class="links">Home</li>
+        <li class="links"><a href="#videos">Videos</a></li>
+        <li class="links"><a href="#work">Work</a></li>
+        <li class="links"><a href="mailto:kavyanshkhaitan11@gmail.com">Contact</a></li>
+        <li class="links">About</li>
+    </ul>
+    <div>
+        <section id="welcome">
+            <div class="parallax-inner"> <img src="WIN_20201009_18_58_15_Pro.jpg" class="profile" />
+                <h1>I Am <br><span id="name">Kavyanhs Khaitan</span></h1>
+            </div>
+
+            <section id="videos">
+                <h1>Videos</h1>
+                <div class="line"></div>
+                <br><br>
+                <iframe width="727" height="409" src="https://www.youtube.com/embed/crhHgAuGJv0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                <br>
+                <br>
+                <iframe width="545" height="409" src="https://www.youtube.com/embed/fV9UbehGsrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section id="work">
+                <h1>Work</h1>
+                <div class="line"></div>
+                <div style="background: red; padding: 20px;">
+                    <h1>App Lab</h1>
+                    <a href="#a1">Geometric Calculator</a><br>
+                    <div class="line"></div>
+                    <h1>Dialogflow Agents</h1>
+                    <a href="#d1">Agent-1</a>
+                </div>
+                <section id="a1">
+                   <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/fqJmA3JEn6CE8ClfgJxZxgCofOhmv1k4Z2lA_AP_4-A/embed?nosource"></iframe>
+                </section>
+                <section id="a2">
+                    <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/rZbgAWhYyPyED0SI6_iUyixNwEv0nOszQRHW9PlpMqx/embed?nosource"></iframe>
+                </section>
+                <section id="d1">
+                    <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/402c3a89-14ba-4b6d-ad88-36ff2a06d651"></iframe>
+                </section>
+            </section>
 </body>
+
 </html>
