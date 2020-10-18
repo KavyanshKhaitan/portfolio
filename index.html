@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baloon Accounting</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input id="input1" placeholder="Add Blown Baloons by typing anything here." style="width: 100%;" onkeyup="moreBlown()"><br><br>
+  <input id="input2" placeholder="Write the value of Total Un-blown Baloons." style="width: 100%;" onkeyup="left()">
+  <input id="input3" placeholder="Write the value of Decreased Baloons." style="width: 100%;"><br>
+  <button onclick="decrease()" id="OK">OK</button>
+  <br><br><br><br><br><br>
+  Blown Baloons left in total: <p id="blowntotal"></p><br>
+  Baloons blown in this session: <p id="thissession"></p><br>
+  UNBLOWN Baloons Left: <p id="unblown"></p>
+</body>
+</html>
